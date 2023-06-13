@@ -33,6 +33,19 @@ body {
     color: #595959;
 }
 
+.buttons {
+    padding: 4px 8px;
+    background: white;
+    border: 1px solid #d6d6d7;
+    border-radius: 4px;
+    color: #595959;
+}
+
+.buttons > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .individual-post > div {
     margin-bottom: 20px;
 }
