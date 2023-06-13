@@ -33,7 +33,15 @@ body {
   color: #595959;
 }
 
-.profile-photo-container {
+
+.profile-photo-container > * {
+    display: inline-block;
+}
+
+.author-name {
+    font-weight: bold;
+}
+
 }
 
 .milestone-post {
