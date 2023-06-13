@@ -17,11 +17,24 @@ p {
 
 body {
     margin: 0;
-    padding: 30px;
     background-color: #f4f4f6;
 }
 
+nav {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+nav > div {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
 .content-container {
+    margin: 0 30px;
     padding: 20px;
     background-color: white;
     border-radius: 4px;
