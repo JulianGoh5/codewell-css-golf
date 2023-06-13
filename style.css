@@ -90,6 +90,7 @@ body {
 .trending-post-metadata {
     display: flex;
     justify-content: space-between;
+    color: #595959;
 }
 
 .orange-hyperlink {
