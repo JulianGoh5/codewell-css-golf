@@ -10,52 +10,55 @@ h2,
 h3,
 h4,
 p {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    padding: 30px;
-    background-color: #f4f4f6;
+  margin: 0;
+  padding: 30px;
+  background-color: #f4f4f6;
 }
 
 .content-container {
-    padding: 20px;
-    background-color: white;
-    border-radius: 4px;
-    margin-bottom: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 4px;
+  margin-bottom: 20px;
 }
 
 .content-container-heading {
-    margin-bottom: 20px;
-    color: #595959;
+  margin-bottom: 20px;
+  color: #595959;
+}
+
+.profile-photo-container {
 }
 
 .milestone-post {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .milestone-post > * {
-    vertical-align: middle;
-    color: #595959;
+  vertical-align: middle;
+  color: #595959;
 }
 
 .trending-post {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .trending-post h4 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .trending-post-metadata {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .orange-hyperlink {
-    color: #f9690e;
-    font-weight: bold;
+  color: #f9690e;
+  font-weight: bold;
 }
