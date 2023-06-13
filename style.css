@@ -8,7 +8,8 @@
 h1,
 h2,
 h3,
-h4 {
+h4,
+p {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -25,4 +26,26 @@ body {
     background-color: white;
     border-radius: 4px;
     margin-bottom: 20px;
+}
+
+.content-container-heading {
+    margin-bottom: 20px;
+    color: #595959;
+}
+
+.trending-post {
+    margin-bottom: 20px;
+}
+
+.trending-post h4 {
+    margin-bottom: 10px;
+}
+
+.trending-post-metadata {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trending-post-metadata p {
+    margin: 0;
 }
