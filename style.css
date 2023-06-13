@@ -46,6 +46,7 @@ body {
     justify-content: space-between;
 }
 
-.trending-post-metadata p {
-    margin: 0;
+.orange-hyperlink {
+    color: #f9690e;
+    font-weight: bold;
 }
