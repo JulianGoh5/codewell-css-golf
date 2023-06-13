@@ -33,6 +33,9 @@ body {
     color: #595959;
 }
 
+.individual-post > div {
+    margin-bottom: 20px;
+}
 
 .profile-photo-container > * {
     display: inline-block;
