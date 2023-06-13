@@ -1,0 +1,21 @@
+/* Colours
+#E5E5E5 - background
+#F9690E - Orange
+#B1B2B5 - grey400
+##595959 - grey700
+*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: #f4f4f6;
+}
