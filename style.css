@@ -46,6 +46,18 @@ nav > div {
     color: #595959;
 }
 
+.share-input {
+    display: flex;
+    gap: 20px;
+}
+
+.share-input input {
+    flex: 1;
+    border: 1px solid #d6d6d7;
+    border-radius: 4px;
+    padding-left: 20px;
+}
+
 .individual-post-header {
     display: flex;
     justify-content: space-between;
