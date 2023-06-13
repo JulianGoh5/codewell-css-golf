@@ -33,6 +33,12 @@ body {
     color: #595959;
 }
 
+.individual-post-header {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
 .buttons {
     padding: 4px 8px;
     background: white;
