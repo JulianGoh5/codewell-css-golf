@@ -1,9 +1,20 @@
 @media only screen and (min-width: 767px) {
     .page-layout {
         display: flex;
+        flex-direction: row;
     }
 
     .social-feed-container {
         flex-basis: 50%;
+        order: 2;
+    }
+
+    .milestones-container {
+        order: 1;
+    }
+
+    .trending-content-container {
+        display: block;
+        order: 3;
     }
 }

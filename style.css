@@ -30,6 +30,15 @@ nav {
     padding: 10px 30px;
 }
 
+.page-layout {
+    display: block;
+}
+
+.trending-content-container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 .content-container {
     margin: 0 30px;
     padding: 20px;
@@ -120,7 +129,7 @@ nav {
     font-weight: bold;
 }
 
-.video-showcase {
+.video-showcase-overlay {
     position: relative;
     height: 200px;
     background-image: url("/Accountable Source Files/Assets/Livestream.png");
