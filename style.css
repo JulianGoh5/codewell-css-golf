@@ -147,7 +147,7 @@ nav {
 
 .video-showcase p {
     position: absolute;
-    width: 30%;
+    max-width: 200px;
     bottom: 20px;
     font-weight: bold;
 }
